@@ -1,6 +1,6 @@
 # Policy Analysis using Synthetic Controls in Continuous Time
 
-This is a python implementation of algorithms and experiments presented in the paper *"Policy Analysis using Synthetic Controls in Continuous Time"*. 
+This is a python implementation of algorithms and experiments presented in the paper [*"Policy Analysis using Synthetic Controls in Continuous Time"*](https://arxiv.org/abs/2102.01577). 
 
 Counterfactual estimation using synthetic controls is one of the most successful recent methodological developments in causal inference. Despite its popularity, the current description only considers time series aligned across units and synthetic controls expressed as linear combinations of observed control units. 
 
