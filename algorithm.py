@@ -6,7 +6,7 @@ import torchcde
 from torch.nn import functional as F 
 from IPython.display import clear_output
 
-
+# We acknowledge the use of tutorials at https://github.com/patrick-kidger/torchcde that served as a skeleton 
 
 def plot_trajectories(X,Y,model,full_coeffs,title=[1,2.1]):
     import matplotlib.pyplot as plt
@@ -48,8 +48,8 @@ class CDEFunc(torch.nn.Module):
         '''L1 regularization on input layer parameters'''
         return torch.sum(torch.abs(self.W))
     
-    # For most purposes the t argument can probably be ignored; unless you want your CDE to behave differently at
-    # different times, which would be unusual. But it's there if you need it!
+    # The t argument can be ignored or added specifically if you want your CDE to behave differently at
+    # different times.
     def forward(self, t, z):
         # z has shape (batch, hidden_channels)
         z = self.linear1(z)
