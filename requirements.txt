@@ -1,0 +1,12 @@
+jupyter
+sklearn
+matplotlib
+numpy
+torch
+cvxopt
+future
+pandas
+torchcde
+cvxpy
+matrix_completion
+tabulate
