@@ -10,3 +10,4 @@ torchcde
 cvxpy
 matrix_completion
 tabulate
+cloudpickle
